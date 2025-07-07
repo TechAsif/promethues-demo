@@ -1,0 +1,6 @@
+services:
+  express-app:
+    build: .
+    container_name: express-app
+    ports:
+      - "3005:3005"
